@@ -1,1 +1,5 @@
-from flask import flask app=flask(app.py) @app.route('/') def home (): return "krishan"
+from flask import Flask
+app=Flask(__name__)
+@app.route('/') 
+def home ():
+  return "krishan"
